@@ -19,7 +19,7 @@ import { Box } from "@material-ui/core";
 let sigUtil = require("eth-sig-util");
 let config = {
   contract: {
-    address: "0xe55348C7994f0f76CD0eB68003fD5A42025247a7",
+    address: "0x8EcE2aE707227082f5267CC78f45E07471E8b5f8",
     abi: [
       {
         anonymous: false,
@@ -100,7 +100,7 @@ let config = {
     ],
   },
   apiKey: {
-    test: "_5lfiDqLg.b7fbaae2-15af-49e3-b18a-4542fbccd863",
+    test: "7GQae1veC.14e1815b-9ab1-4a83-a2c2-2c52abd48b56",
     prod: "8nvA_lM_Q.0424c54e-b4b2-4550-98c5-8b437d3118a9",
   },
 };
@@ -122,7 +122,7 @@ let domainData = {
   name: "TestContract",
   version: "1",
   verifyingContract: config.contract.address,
-  salt: "0x" + (1287).toString(16).padStart(64, "0"),
+  salt: "0x" + (212984383488152).toString(16).padStart(64, "0"),
 };
 let web3, walletWeb3;
 let contract;
